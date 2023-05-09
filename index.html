@@ -1,0 +1,121 @@
+<html>
+<!-- DISCLAIMER: This website is for informational purposes only. Any information or content provided on this site is not intended to be used as legal or financial advice. Users of this site should consult with a professional advisor for specific advice related to their individual circumstances. The owners and operators of this site are not responsible for any errors or omissions in the content provided, nor for any actions taken based on the information provided on this site. -->
+<!-- Property of Enkhbold: This content is owned by Enkhbold and may not be reproduced, distributed, or used without permission. Any unauthorized use of this content is a violation of copyright law. -->
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet"> <!--
+			The head section contains links to external files for styling the calculator and for importing the "Open Sans" font from Google Fonts. It also contains the title of the calculator.
+			-->
+	<title>Calculator</title>
+</head>
+
+<body style="background-color:rgb(23, 23, 23); text-align: center">
+	<div class="text"> <p1>Calculator</p1></div>
+	<div class="container">
+		<div class="center">
+
+			<div id="calculator">
+				<div id="result">
+					<div class="col-lg-1" id="history">
+						<p id="history-value"></p>
+					</div>
+					<div class="col-lg-1" id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div class="w-100" id="keyboard">
+
+					<table>
+						<tr>
+							<td>
+								<div><button class="operator" id="clear">C</button></div>
+							</td>
+							<td>
+								<div><button class="operator" id="backspace">CE</button></div>
+							</td>
+							<td>
+								<div><button class="operator" id="%">%</button></div>
+							</td>
+							<td>
+								<div><button style="background-color:#FF9500; color:#ffffff" class="operator"
+										id="/">&#247;</button></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div><button class="number" id="7">7</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="8">8</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="9">9</button></div>
+							</td>
+							<td>
+								<div><button style="background-color:#FF9500; color:#ffffff" class="operator"
+										id="*">&times;</button></div>
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<div><button class="number" id="4">4</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="5">5</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="6">6</button></div>
+							</td>
+							<td>
+								<div><button style="background-color:#FF9500; color:#ffffff" class="operator"
+										id="-">-</button></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div><button class="number" id="1">1</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="2">2</button></div>
+							</td>
+							<td>
+								<div><button class="number" id="3">3</button></div>
+							</td>
+							<td>
+								<div><button style="background-color:#FF9500; color:#ffffff" class="operator"
+										id="+">+</button></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div><button class="empty" id="empty-black"></button></div>
+							</td>
+							<td>
+								<div><button class="number" id="0">0</button></div>
+							</td>
+							<td>
+								<div><button class="empty" id="empty-black"></button></div>
+							</td>
+							<td>
+								<div><button style="background-color:#FF9500; color:#ffffff" class="operator"
+										id="=">=</button></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<!-- <div id="theme-switch">
+			<input type="checkbox" id="toggle">
+			<label for="toggle"></label>
+		  </div> -->
+
+</body>
+
+</html>
