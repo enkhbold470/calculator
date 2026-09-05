@@ -23,4 +23,4 @@ To use the calculator, simply open the `index.html` file in your browser. The ca
 - Script.js (provided separately)
 
 ## Contact
-For any questions or concerns regarding this app, please contact Enkhbold at [enkhbold@example.com](mailto:enkhbold470@gmail.com).
+For any questions or concerns regarding this app, please open an issue on this repository.
